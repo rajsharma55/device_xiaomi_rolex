@@ -162,3 +162,12 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Wifi
 PRODUCT_PROPERTY_OVERRIDES += \
     wifi.interface=wlan0
+
+
+# Maintainer
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.maintainer.name=rajsharma55
+
+# cpu
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.processor.model=Snapdragon_425
