@@ -1909,3 +1909,6 @@ vendor/lib64/hw/consumerir.default.so:vendor/lib64/hw/consumerir.default.so|d514
 vendor/etc/qdcm_calib_data_hx8394F_HD720p_video_BOE_c3a.xml:vendor/etc/qdcm_calib_data_hx8394F_HD720p_video_BOE_c3a.xml
 vendor/etc/qdcm_calib_data_ili9881c_HD720p_video_Ebbg_c3a.xml:vendor/etc/qdcm_calib_data_ili9881c_HD720p_video_Ebbg_c3a.xml
 vendor/etc/qdcm_calib_data_nt35521s_HD720p_video_EBBG_c3a.xml:vendor/etc/qdcm_calib_data_nt35521s_HD720p_video_EBBG_c3a.xml
+#VNDK
+vendor/lib/vndk-sp/libcutils.so|7276c71299f501f1de8469b8bf1baffcf60180f3
+vendor/lib/vndk/libprocessgroup.so|164204f6902c40dc438c064c88afd0e2749c93f4
