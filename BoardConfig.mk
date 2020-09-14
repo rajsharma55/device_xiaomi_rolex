@@ -132,15 +132,10 @@ TARGET_COMPILE_WITH_MSM_KERNEL	:= true
 # Lights
 TARGET_PROVIDES_LIBLIGHT := true
 
-<<<<<<< HEAD
 # Shims
 TARGET_LD_SHIM_LIBS := \
     /vendor/lib64/liblbs_core.so|libloc_shim.so \
     /vendor/lib64/libloc_api_v02.so|libloc_shim.so
-=======
-# Lineage Hardware
-JAVA_SOURCE_OVERLAYS := org.lineageos.hardware|$(DEVICE_PATH)/lineagehw|**/*.java
->>>>>>> parent of eeefb8e... rolex: Replace KeyDisabler class with Touch HAL
 
 # Tap2Wake
 TARGET_TAP_TO_WAKE_NODE := "/proc/gesture/onoff"
