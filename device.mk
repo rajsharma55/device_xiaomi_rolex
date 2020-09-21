@@ -31,10 +31,9 @@ PRODUCT_ENFORCE_RRO_TARGETS := \
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
-    hardware/qcom/display-caf-msm8996 \
-    hardware/qcom/audio-caf-msm8996 \
-    hardware/qcom/media-caf-msm8996
-
+    hardware/qcom-caf/msm8996/display \
+    hardware/qcom-caf/msm8996/audio \
+    hardware/qcom-caf/msm8996/media
 # AAPT
 # This device is xhdpi.  However the platform doesn't
 # currently contain all of the bitmaps at xhdpi density so
@@ -391,10 +390,6 @@ PRODUCT_PACKAGES += \
 # Soong
 PRODUCT_SOONG_NAMESPACES += \
     device/xiaomi/rolex
-
-# Telephony
-PRODUCT_PACKAGES += \
-    telephony-ext
 
 # Thermal
 PRODUCT_PACKAGES += \
