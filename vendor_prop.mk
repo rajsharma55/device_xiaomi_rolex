@@ -150,8 +150,18 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.data.mode=concurrent
 
 PRODUCT_PROPERTY_OVERRIDES += \
-     persist.vendor.data.iwlan.enable=true \
-     ro.telephony.iwlan_operation_mode=legacy
+    persist.vendor.data.iwlan.enable=true \
+    ro.telephony.iwlan_operation_mode=legacy
+
+# Some new shit I would like to test
+PRODUCT_PROPERTY_OVERRIDES += \
+    debug.sf.early_phase_offset_ns=11600000 \
+    debug.sf.early_app_phase_offset_ns=11600000 \
+    debug.sf.early_gl_phase_offset_ns=3000000 \
+    debug.sf.early_gl_app_phase_offset_ns=15000000 \
+    debug.sf.phase_offset_threshold_for_next_vsync_ns=11600000 \
+    ro.hardware.egl=adreno \
+    debug.sf.disable_backpressure=1
 
 # Time Services
 PRODUCT_PROPERTY_OVERRIDES += \
