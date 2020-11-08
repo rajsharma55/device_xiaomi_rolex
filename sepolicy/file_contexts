@@ -26,6 +26,9 @@
 # Ir
 /dev/lirc[0-9]*					u:object_r:lirc_device:s0
 
+# Persist
+/persist(/*)?                u:object_r:mnt_vendor_file:s0
+
 # Rild
 /(vendor|system/vendor)/radio/qcril_database/qcril.db	u:object_r:rild_file:s0
 
