@@ -389,6 +389,13 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_USES_QCOM_HARDWARE := true
 PRODUCT_BOARD_PLATFORM := msm8996
 
+# Soong namespaces
+PRODUCT_SOONG_NAMESPACES += \
+    $(LOCAL_PATH) \
+    hardware/qcom-caf/msm8996/display \
+    hardware/qcom-caf/msm8996/audio \
+    hardware/qcom-caf/msm8996/media
+
 # Telephony
 PRODUCT_PACKAGES += \
     telephony-ext
